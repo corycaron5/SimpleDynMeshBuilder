@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Simple Dyn Mesh Builder BPLibrary</title>
+    <link rel="stylesheet" type="text/css" href="../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Simple Dyn Mesh Builder BPLibrary</a>
+      <h1 class="title_style">Simple Dyn Mesh Builder BPLibrary</h1>
+	  <p>C++ library containing various math functions used for generating shapes</p>
+      <h2 class="title_style">Nodes</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href="./nodes/CalculateRadiansPerVertex.html">Calculate Radians per Vertex</a>
+            </td>
+			<td>
+              <a>Calculates the radians per vertex based on the number of verts in the polygon</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CalculateVertCosSin.html">Calculate Vertex Sin and Cos</a>
+            </td>
+			<td>
+              <a>Calculates the Sine and Cosine values for a vertex at the given index based on the radians per vertex</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetMidpoint.html">Get Midpoint</a>
+            </td>
+			<td>
+              <a>Gets the point in the middle of two given points</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetPolygonSideMidpoints.html">Get Polygon Side Midpoints</a>
+            </td>
+			<td>
+              <a>Gets the midpoints for all sides of a polygon with the given vertices</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetPolygonVerts.html">Get Polygon Vertices</a>
+            </td>
+			<td>Calculates the vertices for a polygon with the specified number of vertices<br />NOTE: This could be a Pure function, but is setup as an impure function to avoid accidental performance issues<br />WARNING: The number of vertices has a direct impact on performance when generating shapes. I would recommend avoiding anything much above 20 for 3D shapes that will be further manipulated (like a pyramid)<br />If the shape will be converted into a static mesh, you can use higher numbers, but may experience performance issues while editing the dyn mesh
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

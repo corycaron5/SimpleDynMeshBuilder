@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>DynMeshBuilder</title>
+    <link rel="stylesheet" type="text/css" href="../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">DynMeshBuilder</a>
+      <h1 class="title_style">DynMeshBuilder</h1>
+	  <p>An editor only actor used to create complex meshes built from many shapes put together</p>
+      <h2 class="title_style">Nodes</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href="./nodes/AddToDataTable.html">Add to Data Table</a>
+            </td>
+			<td>
+              <a>Util function to save the current mesh data into a data table<br>NOTE: Currently not working due to an Engine Bug reported in 5.3</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/BakeStaticMesh.html">Bake Static Mesh</a>
+            </td>
+			<td>
+              <a>Copies the dynamic mesh into a static mesh<br>Overwrites the old one if an asset with the given name already exists, otherwise creates a new static mesh<br>Assets are saved into the "BakedMeshSaveFolder" under the project content root</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="../SKEL_I_DynMeshBuilder_C/nodes/BuildDynMesh.html">Build Dyn Mesh</a>
+            </td>
+			<td>
+              <a>Implemented from DynMeshBuilderInterface</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateNewStaticMesh.html">Create New Static Mesh</a>
+            </td>
+			<td>
+              <a>Creates a new static mesh from the current dynamic mesh</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/SaveToStaticMesh.html">Save to Static Mesh</a>
+            </td>
+			<td>
+              <a>Saves the dynamic mesh into the given static mesh object, rebuilting collision for the mesh afterwards.</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

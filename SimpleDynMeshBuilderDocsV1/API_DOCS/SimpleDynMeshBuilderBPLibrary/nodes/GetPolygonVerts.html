@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Get Polygon Vertices</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SimpleDynMeshBuilderBPLibrary.html">Simple Dyn Mesh Builder BPLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Get Polygon Vertices</a>
+      <h1 class="title_style">Get Polygon Vertices</h1>
+      <p>Calculates the vertices for a polygon with the specified number of vertices<br />NOTE: This could be a Pure function, but is setup as an impure function to avoid accidental performance issues<br />WARNING: The number of vertices has a direct impact on performance when generating shapes. I would recommend avoiding anything much above 20 for 3D shapes that will be further manipulated (like a pyramid)<br />If the shape will be converted into a static mesh, you can use higher numbers, but may experience performance issues while editing the dyn mesh</p>
+      <img src="../img/nd_img_GetPolygonVerts.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The radius of the circle used for calculating the points of the polygon</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Number Of Verts</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>Number of vertices on the polygon to be calculated</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Out</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Vertices</div>
+              <div class="param_type">Array of Vector 2D Structures</div>
+            </td>
+            <td>
+              <a>Array of the vertices for a polygon with the given number of vertices and radius</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

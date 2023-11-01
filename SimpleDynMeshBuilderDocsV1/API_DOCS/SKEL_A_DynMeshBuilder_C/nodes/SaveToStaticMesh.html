@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Save to Static Mesh</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_A_DynMeshBuilder_C.html">DynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Save to Static Mesh</a>
+      <h1 class="title_style">Save to Static Mesh</h1>
+      <p>Saves the dynamic mesh into the given static mesh object, rebuilting collision for the mesh afterwards.</p>
+      <img src="../img/nd_img_SaveToStaticMesh.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Target</div>
+              <div class="param_type">Dyn Mesh Builder Object Reference</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Target Mesh</div>
+              <div class="param_type">Static Mesh Object Reference</div>
+            </td>
+            <td>
+              <a>A reference to the static mesh to be overwritten</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Out</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Success</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <a>Whether a static mesh was successfully saved based on this dynamic mesh</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
