@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Get Extruded Disc Params</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_FL_ShapeGenerator_C.html">ShapeGeneratorLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Get Extruded Disc Params</a>
+      <h1 class="title_style">Get Extruded Disc Params</h1>
+      <p>Gets the parameters required for generating an extruded disc.<br />Uses default values if the param is not found</p>
+      <img src="../img/nd_img_GetExtrudedDiscParams.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Shape Data</div>
+              <div class="param_type">S Dyn Shape Data Structure</div>
+            </td>
+            <td>
+              <a>Dyn Shape Data containing the params for this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The radius of the shape</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Hole Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The inner radius for creating a hole in the center</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Start Angle</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>Starting angle for drawing the disc</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">End Angle</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>Ending angle for drawing the disc</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Angle Steps</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>Number of steps for the circle used to calculate the number of sides</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Height</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The height of the extruded disc</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

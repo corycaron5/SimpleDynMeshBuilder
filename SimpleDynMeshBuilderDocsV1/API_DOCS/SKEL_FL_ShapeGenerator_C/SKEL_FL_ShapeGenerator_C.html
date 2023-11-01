@@ -1,0 +1,428 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>ShapeGeneratorLibrary</title>
+    <link rel="stylesheet" type="text/css" href="../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">ShapeGeneratorLibrary</a>
+      <h1 class="title_style">ShapeGeneratorLibrary</h1>
+	  <p>Library of util functions for generating various shapes</p>
+      <h2 class="title_style">Nodes</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href="./nodes/ApplyPyrChop.html">Apply Pyr Chop</a>
+            </td>
+			<td>
+              <a>Util function for applying cuts to form a pyramid</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateBox.html">Create Box</a>
+            </td>
+			<td>
+              <a>Create a box shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateCapsule.html">Create Capsule</a>
+            </td>
+			<td>
+              <a>Create a capsule shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateCone.html">Create Cone</a>
+            </td>
+			<td>
+              <a>Create a cone shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateCurvedStairs.html">Create Curved Stairs</a>
+            </td>
+			<td>
+              <a>Create a curved stairs shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateCylinder.html">Create Cylinder</a>
+            </td>
+			<td>
+              <a>Create a cylinder shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateDisc.html">Create Disc</a>
+            </td>
+			<td>
+              <a>Create a disc shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateExtIrregPolygon.html">Create Ext Irreg Polygon</a>
+            </td>
+			<td>
+              <a>Create an extruded irregular polygon shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateExtRegPolygram.html">Create Ext Reg Polygram</a>
+            </td>
+			<td>
+              <a>Create an extruded polygram which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor<br>Vertices and Density must both be "Relatively Prime"<br>SEE: https://en.wikipedia.org/wiki/Polygram_(geometry)#Generalized_regular_polygons</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateExtrudedDisc.html">Create Extruded Disc</a>
+            </td>
+			<td>
+              <a>Create an extruded disc shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateHalfSphere.html">Create Half Sphere</a>
+            </td>
+			<td>
+              <a>Create a half sphere shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateIrregPolygon.html">Create Irreg Polygon</a>
+            </td>
+			<td>
+              <a>Create an irregular polygon shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateIrregRevolvePolygon.html">Create Irreg Revolve Polygon</a>
+            </td>
+			<td>
+              <a>Create an irregular revolved polygon which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateIrregSpiralRevolvePolygon.html">Create Irreg Spiral Revolve Polygon</a>
+            </td>
+			<td>
+              <a>Create an irregular spiralled revolved polygon which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateLinearStairs.html">Create Linear Stairs</a>
+            </td>
+			<td>
+              <a>Create a linear stairs shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreatePrism.html">Create Prism</a>
+            </td>
+			<td>
+              <a>Create a prism shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreatePyramid.html">Create Pyramid</a>
+            </td>
+			<td>
+              <a>Create a pyramid shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateRamp.html">Create Ramp</a>
+            </td>
+			<td>
+              <a>Create a ramp shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateRectangle.html">Create Rectangle</a>
+            </td>
+			<td>
+              <a>Create a rectangle shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateRegPolygon.html">Create Reg Polygon</a>
+            </td>
+			<td>
+              <a>Create a regular polygon shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateRegPolygram.html">Create Reg Polygram</a>
+            </td>
+			<td>
+              <a>Create a polygram which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor<br>Vertices and Density must both be "Relatively Prime"<br>SEE: https://en.wikipedia.org/wiki/Polygram_(geometry)#Generalized_regular_polygons</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateRegRevolvePolygon.html">Create Reg Revolve Polygon</a>
+            </td>
+			<td>
+              <a>Create a regular revolved polygon which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateRegSpiralRevolvePolygon.html">Create Reg Spiral Revolve Polygon</a>
+            </td>
+			<td>
+              <a>Create a regular spiralled revolved polygon which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateShape.html">Create Shape</a>
+            </td>
+			<td>
+              <a>Creates a shape based on the Shape name in the passed DynShapeData</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateSphere.html">Create Sphere</a>
+            </td>
+			<td>
+              <a>Create a sphere shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/CreateTorus.html">Create Torus</a>
+            </td>
+			<td>
+              <a>Create a torus shape which can then be appended to a DynamicMeshActor<br>NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetBoxParams.html">Get Box Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a box.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetCapsuleParams.html">Get Capsule Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a capsule.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetConeParams.html">Get Cone Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a cone.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetCurvedStairsParams.html">Get Curved Stairs Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating curved stairs.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetCylinderParams.html">Get Cylinder Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a cylinder.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetDiscParams.html">Get Disc Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a disc.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetExtIrregPolygonParams.html">Get Ext Irreg Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating an irregular extruded polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetExtRegPolygramParams.html">Get Ext Reg Polygram Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a regular extruded polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetExtrudedDiscParams.html">Get Extruded Disc Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating an extruded disc.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetGeneralParams.html">Get General Params</a>
+            </td>
+			<td>
+              <a>Get parameters that are not shape specific</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetHalfSphereParams.html">Get Half Sphere Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a half sphere.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetIrregPolygonParams.html">Get Irreg Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating an irregular polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetIrregRevolvePolygonParams.html">Get Irreg Revolve Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a revolved irregular polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetIrregSpiralRevolvePolygonParams.html">Get Irreg Spiral Revolve Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a spiralled revolved irregular polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetLinearStairsParams.html">Get Linear Stairs Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating linear stairs.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetPrismParams.html">Get Prism Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a prism.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetPyramidParams.html">Get Pyramid Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a pyramid.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetRectangleParams.html">Get Rectangle Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a rectangle.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetRegPolygonParams.html">Get Reg Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a regular polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetRegPolygramParams.html">Get Reg Polygram Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a regular polygram.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetRegRevolvePolygonParams.html">Get Reg Revolve Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a revolved regular polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetRegSpiralRevolvePolygonParams.html">Get Reg Spiral Revolve Polygon Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a spiralled revolved regular polygon.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetSphereParams.html">Get Sphere Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a sphere.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/GetTorusParams.html">Get Torus Params</a>
+            </td>
+			<td>
+              <a>Gets the parameters required for generating a torus.<br>Uses default values if the param is not found</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="./nodes/ReorderVerts.html">Reorder Verts</a>
+            </td>
+			<td>
+              <a>Reorders the array of vertices to form a star shape with the given density</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

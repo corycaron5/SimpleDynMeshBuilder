@@ -1,0 +1,108 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Get Torus Params</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_FL_ShapeGenerator_C.html">ShapeGeneratorLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Get Torus Params</a>
+      <h1 class="title_style">Get Torus Params</h1>
+      <p>Gets the parameters required for generating a torus.<br />Uses default values if the param is not found</p>
+      <img src="../img/nd_img_GetTorusParams.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Shape Data</div>
+              <div class="param_type">S Dyn Shape Data Structure</div>
+            </td>
+            <td>
+              <a>Dyn Shape Data containing the params for this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Major Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>Radius of the outer circle</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Minor Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>Radius of the inner circle which is being revolved</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Revolve Degrees</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>Number of degrees around to revolve the shape</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Degree Offset</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>Starting offset for the revolution</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Major Steps</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>Number of steps in the revolution used to calculate the number of sides</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Minor Steps</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>Number of steps for the inner circle used to calculate the number of sides</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Capped</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <a>Whether the ends are capped</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Get Curved Stairs Params</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_FL_ShapeGenerator_C.html">ShapeGeneratorLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Get Curved Stairs Params</a>
+      <h1 class="title_style">Get Curved Stairs Params</h1>
+      <p>Gets the parameters required for generating curved stairs.<br />Uses default values if the param is not found</p>
+      <img src="../img/nd_img_GetCurvedStairsParams.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Shape Data</div>
+              <div class="param_type">S Dyn Shape Data Structure</div>
+            </td>
+            <td>
+              <a>Dyn Shape Data containing the params for this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Step Width</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The width of the steps for the stairs</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Step Height</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The height of each step in the stairs (Total = Step Height * Num Steps)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Inner Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The radius of the outer circle from which to revolve the stairs</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Curve Angle</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The total angle from start to finish</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Num Steps</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>The number of steps in the stairs</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Floating</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <a>Whether the stairs should be floating or go down to the base<br>I would advise using this any time you have high curve angle (Values above 360 will overlap the earlier stairs)</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

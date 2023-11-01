@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Create Disc</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_FL_ShapeGenerator_C.html">ShapeGeneratorLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Create Disc</a>
+      <h1 class="title_style">Create Disc</h1>
+      <p>Create a disc which can then be appended to a DynamicMeshActor<br />NOTE: Do not forget to call Release All Compute Meshes after finishing generation of the DynamicMeshActor</p>
+      <img src="../img/nd_img_CreateDisc.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Owning Dyn Mesh Actor</div>
+              <div class="param_type">Dynamic Mesh Actor Object Reference</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Shape Data</div>
+              <div class="param_type">S Dyn Shape Data Structure</div>
+            </td>
+            <td>
+              <a>Dyn Shape Data struct from which to build this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Out</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Disc</div>
+              <div class="param_type">Dynamic Mesh Object Reference</div>
+            </td>
+            <td>
+              <a>Reference to the created dynamic mesh object representing this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

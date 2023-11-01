@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Get Capsule Params</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_FL_ShapeGenerator_C.html">ShapeGeneratorLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Get Capsule Params</a>
+      <h1 class="title_style">Get Capsule Params</h1>
+      <p>Gets the parameters required for generating a capsule.<br />Uses default values if the param is not found</p>
+      <img src="../img/nd_img_GetCapsuleParams.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Shape Data</div>
+              <div class="param_type">S Dyn Shape Data Structure</div>
+            </td>
+            <td>
+              <a>Dyn Shape Data containing the params for this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Radius</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The radius of the shape</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Line Length</div>
+              <div class="param_type">Float (double-precision)</div>
+            </td>
+            <td>
+              <a>The height of the cylinder (Total = Line Length + Radius * 2)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Hemisphere Steps</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>Number of steps for the half circle used to calculate the number of sides</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Circle Steps</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>Number of steps for the circle used to calculate the number of sides</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
