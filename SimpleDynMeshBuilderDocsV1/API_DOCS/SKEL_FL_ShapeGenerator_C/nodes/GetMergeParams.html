@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>Get Merge Params</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">SimpleDynMeshBuilder</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SKEL_FL_ShapeGenerator_C.html">ShapeGeneratorLibrary</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">Get Merge Params</a>
+      <h1 class="title_style">Get Merge Params</h1>
+      <p>Get parameters that are not shape specific</p>
+      <img src="../img/nd_img_GetMergeParams.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Shape Data</div>
+              <div class="param_type">S Dyn Shape Data Structure</div>
+            </td>
+            <td>
+              <a>Dyn Shape Data containing the params for this shape</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Merge Mode</div>
+              <div class="param_type">E_MergeMode Enum</div>
+            </td>
+            <td>
+              <a>Which merge mode should be used for this shape</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Transform</div>
+              <div class="param_type">Transform</div>
+            </td>
+            <td>
+              <a>Transform from the origin for this shape</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Transform Params</div>
+              <div class="param_type">Array of Transforms</div>
+            </td>
+            <td>
+              <a>Additional transforms used for some merge modes</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Repeat Count</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <a>The number of times the mesh should be repeated</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Constant Relative</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <a>Only used for AppendTransformed, should the primary Transform be relative<br>See: https://docs.unrealengine.com/5.2/en-US/BlueprintAPI/GeometryScript/MeshEdits/AppendMeshTransformed/</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Transform First</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <a>Whether the first instance is transformed</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
